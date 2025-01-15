@@ -12,3 +12,4 @@ D:\Rinae\Development\2025_Dev\RabbitMQ\Ticket\obj\Debug\net8.0\refint\Ticket.dll
 D:\Rinae\Development\2025_Dev\RabbitMQ\Ticket\obj\Debug\net8.0\Ticket.pdb
 D:\Rinae\Development\2025_Dev\RabbitMQ\Ticket\obj\Debug\net8.0\Ticket.genruntimeconfig.cache
 D:\Rinae\Development\2025_Dev\RabbitMQ\Ticket\obj\Debug\net8.0\ref\Ticket.dll
+D:\Rinae\Development\2025_Dev\RabbitMQ\Ticket\obj\Debug\net8.0\Ticket.sourcelink.json
