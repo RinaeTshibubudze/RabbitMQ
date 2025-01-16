@@ -16,7 +16,7 @@ namespace API.Controllers
         private readonly ILogger<BookingsController> _logger;
 
         // In-Memory Database
-        private static readonly List<Booking> _bookings = new List<Booking>();
+        private static readonly List<Booking> _bookings = new();
 
         public BookingsController(ILogger<BookingsController> logger, IMessageProducer messageProducer)
         {
