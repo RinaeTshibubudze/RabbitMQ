@@ -26,10 +26,12 @@ namespace API.Services
             using var channel = conn.CreateModel();
 
 
-            channel.QueueDeclare("bookings",
-                                 durable: true,
-                                 exclusive: true
-                                 );
+            channel.QueueDeclare(
+                        queue: "bookings",
+                        durable: true,
+                        exclusive: false,
+                        autoDelete: false
+                        );
 
             var json = JsonSerializer.Serialize(message);
             var body = Encoding.UTF8.GetBytes(json);

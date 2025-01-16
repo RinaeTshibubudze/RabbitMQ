@@ -31,7 +31,7 @@ namespace API.Controllers
 
             _bookings.Add(newBooking);
 
-            _messageProducer.SendingMessage<Booking>(newBooking);
+            _messageProducer.SendingMessage(newBooking);
 
             return Ok();
         }
