@@ -483,3 +483,7 @@ $RECYCLE.BIN/
 
 # End of
 
+./API/bin/  
+./API/obj/  
+./Ticket/bin/
+./Ticket/obj/
